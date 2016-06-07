@@ -1,5 +1,18 @@
-.wrapper {
-	width: 1024px;
-	margin: 0 auto;
-	border: 1px solid #000;
-}
+td select,
+    td input {
+      width: 150px;
+    }
+
+    label {
+      display: block;
+    }
+
+    .error input,
+    .red-border,
+    .error textarea {
+      border: 1px solid red;
+    }
+
+    .error {
+      color: red;
+    }
