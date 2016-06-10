@@ -33,8 +33,8 @@ document.getElementById('my-button').ondblclick = function(event) {
     }
 
     function validation() {
-    	var login=document.getElementById('_login');
-    	var pass=document.getElementById('_pass');
+    	var login=document.getElementById('_email');
+    	var pass=document.getElementById('_pwd');
     	var flagLogin=false;
     	var flagPass=false;
 
