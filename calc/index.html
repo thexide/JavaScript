@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Login</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/index.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+<div class="login-wrapper">
+  <h2>Вход</h2>
+  <form role="form" action="calc.html">
+  <p class="auth-errorOff" id='auth-error'>Неправильный логин или пароль!</p>
+    <div class="form-group">
+      <label for="login">Логин:</label>
+      <input type="text" class="form-control" id="login" placeholder="Введите логин">
+    </div>
+    <div class="form-group">
+      <label for="pass">Пароль:</label>
+      <input type="password" class="form-control" id="pass" placeholder="Введите пароль">
+    </div>
+    <button type="submit" class="btn btn-default" id="submit">Отправить</button>
+  </form>
+</div>
+</div>
+<script src='js/index.js'></script>
+</body>
+</html>
