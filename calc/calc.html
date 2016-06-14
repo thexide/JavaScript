@@ -5,22 +5,42 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/calc.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </head>
 <body>
 
 <div class="container">
-  <div class="wrapper">
     <h2>Calculator</h2>
     <div class="form-group-calc-string">
     <label for="calc-string">Введите числа</label>
-    <input type="text" class="form-control-calc-string" id="calc-string">
+    <input type="text" class="form-control-calc-string" id="calc-firstnum">
+    <input type="text" class="form-control-calc-string" id="calc-znak">
+    <input type="text" class="form-control-calc-string" id="calc-secondnum">
+    <input type="text" class="form-control-calc-string" id="calc-equal">
+    <div class="wrapper">
     <button id="btn-C" class="btn btn-default btn-calc-C">C</button>
-    <button type="btn-0" class="btn btn-default btn-calc-C">0</button>
+    <button id="btn-MM" class="btn btn-default btn-calc-MM">M-</button>
+    <button id="btn-MP" class="btn btn-default btn-calc-MP">M+</button>
+    <button id="btn-0" class="btn btn-default btn-calc-0">0</button>
+    <button id="btn-1" class="btn btn-default btn-calc-1">1</button>
+    <button id="btn-2" class="btn btn-default btn-calc-2">2</button>
+    <button id="btn-3" class="btn btn-default btn-calc-3">3</button>
+    <button id="btn-4" class="btn btn-default btn-calc-4">4</button>
+    <button id="btn-5" class="btn btn-default btn-calc-5">5</button>
+    <button id="btn-6" class="btn btn-default btn-calc-6">6</button>
+    <button id="btn-7" class="btn btn-default btn-calc-7">7</button>
+    <button id="btn-8" class="btn btn-default btn-calc-8">8</button>
+    <button id="btn-9" class="btn btn-default btn-calc-9">9</button>
+    <button id="btn-plus" class="btn btn-default btn-calc-plus">+</button>
+    <button id="btn-minus" class="btn btn-default btn-calc-minus">-</button>
+    <button id="btn-muliply" class="btn btn-default btn-calc-">x</button>
+    <button id="btn-devide" class="btn btn-default btn-calc-C">/</button>
+    <button id="btn-equals" class="btn btn-default btn-calc-C">=</button>
+    <button id="btn-dot" class="btn btn-default btn-calc-C">.</button>
   </div>
 </div>
-
+<script src='js/calc.js'></script>
 </body>
 </html>

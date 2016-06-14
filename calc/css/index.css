@@ -8,11 +8,15 @@
 }
 
 .auth-errorOff {
-	font: red;
+	color: #f00;
 	display: none;
 }
 
 .auth-errorOn {
-	color: red;
+	color: #f00;
 	display: block;
+}
+
+.wrapper {
+	display: inline;
 }

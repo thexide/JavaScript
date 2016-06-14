@@ -28,20 +28,18 @@ function validation() {
     	}
 
     	if (flagLogin==true && flagPass==true) {
-         //   alert('hi');
-           // if (login.value=="user" && pass.value=="123456")
-           // auth-error.classList.remove('auth-errorOn');
-           // auth-error.classList.add('auth-errorOff');
-            return true;
+            if (login.value=="user" && pass.value=="123456"){
+                authError.classList.remove('auth-errorOn');
+                authError.classList.add('auth-errorOff');
+                return true;
 
-    	} else {
-         //   auth-error.classList.remove('auth-errorOn')
-         //   auth-error.classList.add('auth-errorOff');
-    		return false;
-
-        } else {
-       //     
-       //     return false;
+        	} else {
+                authError.classList.remove('auth-errorOn')
+                authError.classList.add('auth-errorOff');
+        		return false;
+            }
+            
+        }else{
+            return false;
         }
-
 }
