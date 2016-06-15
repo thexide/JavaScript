@@ -32,7 +32,7 @@ function validation() {
                 tab.open('calc.html')
 
         	} else {
-                authError.classList.add('auth-errorOn')
+                authError.classList.add('alert alert-danger')
                 authError.classList.remove('auth-errorOff');
         		return false;
             }
