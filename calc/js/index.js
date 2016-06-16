@@ -37,7 +37,7 @@ function validation() {
         		return false;
             }
             
-        }else{
+        } else {
             return false;
         }
 }
